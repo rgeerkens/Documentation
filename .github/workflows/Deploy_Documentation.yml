@@ -16,10 +16,15 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   deploy:
-    name: Deploy
+    name: Deploy Documentation
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout Main
         uses: actions/checkout@v3
+
+      - name: Deploy MKDocs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@1.21
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
