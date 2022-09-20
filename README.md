@@ -14,4 +14,6 @@ Demo
 - Run site locally
   - cd Documentation
   - mkdocs serve
+- Update the site manually
+  - mkdocs build
   
