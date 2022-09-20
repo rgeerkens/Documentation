@@ -2,7 +2,7 @@ site_name: Documentation Pipelines
 site_description: Pipelines for Generating and Releasing Documentation
 site_author: Mason Egger
 site_url: https://rgeerkens.github.io/Documentation/
-repo_name: Zelgius/documentation-pipelines
+repo_name: rgeerkens/Documentation
 repo_url: https://github.com/rgeerkens/Documentation
 theme:
     name: material
