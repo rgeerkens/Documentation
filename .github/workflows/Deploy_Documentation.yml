@@ -1,6 +1,6 @@
 # Deploy Documentation
 
-name: Deploy_Documentation
+name: Deploy
 
 # Controls when the workflow will run
 on:
