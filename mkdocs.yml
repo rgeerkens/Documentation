@@ -16,22 +16,22 @@ theme:
       - navigation.indexes
       - toc.follow
       - navigation.top
-#    icon:
-#      tag:
-#        html: fontawesome/brands/html5
-#        js: fontawesome/brands/js
-#        css:  fontawesome/brands/css3
+    icon:
+      tag:
+        html: fontawesome/brands/html5
+        js: fontawesome/brands/js
+        css:  fontawesome/brands/css3
 
 extra:
-#  tags:
-#    HTML5: html
-#    JavaScript: js
-#    CSS: css
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
   version:
     provider: mike
     
 plugins:
-#  - tags
+  - tags
   - search
 
 markdown_extensions:
