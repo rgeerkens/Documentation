@@ -17,5 +17,6 @@ jobs:
 #      - run: mkdocs gh-deploy --force
       - run: git config user.name rgeerkens
       - run: git config user.email ronny.geerkens@telenet.be
+      - run: git pull
       - run: mike deploy --push --update-aliases 2.0 latest
 #      - run: mike set-default --push latest
