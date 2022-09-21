@@ -27,10 +27,16 @@ extra:
     HTML5: html
     JavaScript: js
     CSS: css
+  version:
+    provider: mike
     
 plugins:
   - tags
   - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
 
 nav:
     - Home: 
