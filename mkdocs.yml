@@ -27,6 +27,7 @@ extra:
     HTML5: html
     JavaScript: js
     CSS: css
+  generator: false
     
 plugins:
   - tags
