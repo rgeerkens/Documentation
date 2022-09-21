@@ -12,10 +12,12 @@ theme:
       - navigation.instant
       - navigation.tracking
       - navigation.tabs
+      - navigation.expand
+      - navigation.indexes
 
 nav:
     - Home: 
-        - Home: index.md
+        - index.md
         - Other:
           - License: licenses.md
           - Release Notes : release-notes.md
