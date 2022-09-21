@@ -3,3 +3,4 @@ site_url: https://rgeerkens.github.io/Documentation/
 
 nav:
     - Home: index.md
+    - About : about.md
