@@ -27,9 +27,9 @@ extra:
     HTML5: html
     JavaScript: js
     CSS: css
-  version:
-    provider: mike
-    default: latest
+#  version:
+#    provider: mike
+#    default: latest
     
 plugins:
   - tags
