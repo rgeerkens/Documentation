@@ -31,6 +31,9 @@ extra:
     JavaScript: js
     CSS: css
   generator: false
+  version:
+    provider: mike
+    default: latest
     
 plugins:
   - tags
