@@ -2,6 +2,7 @@ site_name: Demo Documentation
 site_url: https://rgeerkens.github.io/Documentation/
 repo_url: https://github.com/rgeerkens/Documentation/tree/main/docs
 repo_name: Documentation Github
+edit_uri: ""
 
 theme:
     name: material
@@ -21,6 +22,7 @@ theme:
         html: fontawesome/brands/html5
         js: fontawesome/brands/js
         css:  fontawesome/brands/css3
+      repo: fontawesome/brands/github
 
 extra:
   tags:
