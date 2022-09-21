@@ -1,6 +1,6 @@
 site_name: Demo Documentation
 site_url: https://rgeerkens.github.io/Documentation/
-repo_url: https://github.com/rgeerkens/Documentation
+repo_url: https://github.com/rgeerkens/Documentation/tree/main/docs
 repo_name: Documentation Github
 
 theme:
