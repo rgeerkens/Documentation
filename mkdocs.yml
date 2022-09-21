@@ -10,3 +10,6 @@ theme:
 nav:
     - Home: index.md
     - About : about.md
+    - Other:
+      - License: licenses.md
+      - Release Notes : release-notes.md
