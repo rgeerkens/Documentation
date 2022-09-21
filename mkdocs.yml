@@ -14,6 +14,23 @@ theme:
       - navigation.tabs
       - navigation.expand
       - navigation.indexes
+      - toc.follow
+      - navigation.top
+    icon:
+      tag:
+        html: fontawesome/brands/html5
+        js: fontawesome/brands/js
+        css:  fontawesome/brands/css3
+
+extra:
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
+    
+plugins:
+  - tags
+  - search
 
 nav:
     - Home: 
