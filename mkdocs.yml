@@ -29,6 +29,7 @@ extra:
     CSS: css
   version:
     provider: mike
+    default: latest
     
 plugins:
   - tags
