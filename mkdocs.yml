@@ -1,6 +1,12 @@
 site_name: Demo Documentation
 site_url: https://rgeerkens.github.io/Documentation/
 
+theme:
+    name: material
+    palette:
+        primary: blue
+        accent: white
+
 nav:
     - Home: index.md
     - About : about.md
