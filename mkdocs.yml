@@ -33,7 +33,7 @@ extra:
   generator: false
   version:
     provider: mike
-    default: 2.0
+    default: latest
     
 plugins:
   - tags
