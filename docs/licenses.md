@@ -9,4 +9,4 @@ tags:
 
 License information
 
-Demo content v 2.0
+Demo content v2.0

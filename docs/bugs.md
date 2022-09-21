@@ -2,4 +2,4 @@
 
 - Issue 1 : content
 - Issue 2 : content
-- Issue 3 : content
+- Issue 3 : content v2.0

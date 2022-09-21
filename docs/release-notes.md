@@ -3,7 +3,7 @@
 ---
 title: Release Notes
 
-summary: A brief description of my document.
+summary: A brief description of my document. v2.0
 
 authors:
 
