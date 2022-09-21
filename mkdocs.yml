@@ -8,12 +8,18 @@ theme:
     palette:
         primary: blue
         accent: white
+    features:
+      - navigation.instant
+      - navigation.tracking
+      - navigation.tabs
 
 nav:
-    - Home: index.md
+    - Home: 
+        - Home: index.md
+        - Other:
+          - License: licenses.md
+          - Release Notes : release-notes.md
+        - Bug Tracker: bugs.md
+
     - About : about.md
-    - Other:
-      - License: licenses.md
-      - Release Notes : release-notes.md
     - Report Issue: https://github.com/rgeerkens/Documentation/issues/new
-    - Bug Tracker: bugs.md
