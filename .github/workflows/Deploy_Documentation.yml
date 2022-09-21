@@ -14,8 +14,8 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material 
       - run: pip install mike
-#      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy --force
       - run: git config user.name rgeerkens
       - run: git config user.email ronny.geerkens@telenet.be
-      - run: mike deploy --push --update-aliases 2.0 latest
+#      - run: mike deploy --push --update-aliases 2.0 latest
 #      - run: mike set-default --push latest
