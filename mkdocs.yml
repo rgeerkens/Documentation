@@ -27,18 +27,10 @@ extra:
     HTML5: html
     JavaScript: js
     CSS: css
-  version:
-    provider: mike
-    default: latest
     
 plugins:
   - tags
   - search
-  - mike:
-      # these fields are all optional; the defaults are as below...
-      version_selector: true   # set to false to leave out the version selector
-      css_dir: css             # the directory to put the version selector's CSS
-      javascript_dir: js       # the directory to put the version selector's JS
 
 markdown_extensions:
   - toc:
