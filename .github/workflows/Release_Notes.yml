@@ -19,10 +19,22 @@ jobs:
         uses: mikepenz/release-changelog-builder-action@v3
         with: 
           commitMode: true
+          configurationJson: |
+            {
+              "template": "#{{CHANGELOG}}\n\n<details>\n<summary>Uncategorized</summary>\n\n#{{UNCATEGORIZED}}\n</details>",
+              "categories": [
+                {
+                    "title": "## 💬 Version 3.0",
+                    "labels": ["3.0"]
+                },
+                {
+                    "title": "## 📦 Dependencies",
+                    "labels": ["dependencies"]
+                }
+              ]
+            }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run:
-          cat changelog
       - name: Create local changes
         run: |
            echo "testje" >> changelog.md
