@@ -19,7 +19,7 @@ jobs:
           echo "# Release Notes" > changelog.md
           echo "" >> changelog.md
           echo "## Releases" >> changelog.md
-          git log --all --grep='[release]' --pretty=format:"- %ad | %s %d [%an] | %b" --date=short >> changelog.md
+          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[release]" >> changelog.md
           git add changelog.md
       - name: Commit files
         run: |
