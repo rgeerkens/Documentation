@@ -26,7 +26,7 @@ jobs:
           echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
           log=${{steps.build_changelog.outputs.changelog}}
           echo "test"
-          echo log
+          echo $log
           echo ${{steps.build_changelog}} 
           echo "testclose"
 #          git add changelog.md
