@@ -19,7 +19,6 @@ jobs:
         uses: mikepenz/release-changelog-builder-action@v3
         with: 
           commitMode: true
-          configuration: "configuration.json"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create local changes
