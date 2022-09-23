@@ -26,7 +26,7 @@ jobs:
           echo "" >> changelog.md
           echo "## Enhancements" >> changelog.md
           git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[enhancement]" >> changelog.md
-          git add changelog.md
+          git add docs/changelog.md
       - name: Commit files
         run: |
           git config --local user.email "ronny.geerkens@telenet.be"
