@@ -23,11 +23,8 @@ jobs:
           commitMode: true
       - name: Create local changes
         run: |
-          echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
-          log=${{steps.build_changelog.outputs.changelog}}
           echo "test"
-          echo $log
-          echo ${{steps.build_changelog}} 
+          echo ${{steps.build_changelog.outputs.commits}} 
           echo "testclose"
 #          git add changelog.md
 #      - name: Commit files
@@ -40,3 +37,4 @@ jobs:
 #        with:
 #          github_token: ${{ secrets.GITHUB_TOKEN }}
 #          branch: ${{ github.ref }}
+#          echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
