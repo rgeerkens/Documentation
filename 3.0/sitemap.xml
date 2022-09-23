@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rgeerkens.github.io/Documentation/3.0/bastion-demo/</loc>
+         <lastmod>2022-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/training/</loc>
          <lastmod>2022-09-23</lastmod>
          <changefreq>daily</changefreq>
