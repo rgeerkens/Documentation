@@ -16,16 +16,15 @@ jobs:
           fetch-depth: 0
       - name: Build Changelog
         id: build_changelog
-        uses: mikepenz/release-changelog-builder-action@v3
+        uses: mikepenz/release-changelog-builder-action@v1
+        with: 
+          commitMode: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          commitMode: true
       - name: Create local changes
         run: |
-          echo "test"
-          echo ${{steps.build_changelog.outputs.changelog}} 
-          echo "testclose"
+           echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
+           cat changelog.md
 #          git add changelog.md
 #      - name: Commit files
 #        run: |
