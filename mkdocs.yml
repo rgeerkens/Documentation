@@ -50,6 +50,7 @@ nav:
           - License: licenses.md
           - Release Notes : release-notes.md
         - Bug Tracker: bugs.md
+        - Training (remote repo) : training/README.md
 
     - About : about.md
     - Report Issue: https://github.com/rgeerkens/Documentation/issues/new
