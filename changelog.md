@@ -48,4 +48,7 @@
 - Update release-notes.md
    - PR: #0
 
-</details>
+</details>2022-09-23 | Update licenses.md  [rgeerkens]
+2022-09-23 | Update licenses.md  [rgeerkens]
+2022-09-23 | Update licenses.md  [rgeerkens]
+2022-09-23 | Update licenses.md  [rgeerkens]
