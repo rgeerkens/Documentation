@@ -8,7 +8,7 @@ on:
 
 jobs:
   release:
-    #if: startsWith(github.ref, 'refs/tags/3.0')
+    #if: startsWith(github.ref, 'refs/tags/3.01')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -27,7 +27,7 @@ jobs:
         id: generate_notes
         uses: anmarkoulis/commitizen-changelog-reader@master
         with:
-          tag_name: refs/tags/3.0
+          tag_name: refs/tags/3.01
           changelog: CHANGELOG.md
       - name: Create Release
         id: create_release
@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: refs/tags/3.0
+          tag_name: refs/tags/3.01
           release_name: Release ${{ github.ref }}
           prerelease: false
           draft: false
