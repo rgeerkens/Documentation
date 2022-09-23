@@ -12,4 +12,4 @@ Demo Contact Info
 
 ## Opening Hours
 
-Demo Hours that we are open v2.0
+Demo Hours that we are open v3.0
