@@ -25,7 +25,7 @@ jobs:
         run: |
           echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
           echo "test"
-          echo ${{steps.build_changelog.outputs.changelog}} 
+          echo ${{steps.build_changelog}} 
           echo "testclose"
 #          git add changelog.md
 #      - name: Commit files
