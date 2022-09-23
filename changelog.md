@@ -5,5 +5,8 @@
 - 2022-09-23 | [release] Update license.md  [rgeerkens] | Release to test auto changelog
 
 ## Bugfixes
-- 2022-09-23 | [bugfix] Update about.md  (HEAD -> main, origin/main) [rgeerkens] | Update to test automatic release notes for bugfix
+- 2022-09-23 | [bugfix] Update about.md  [rgeerkens] | Update to test automatic release notes for bugfix
 - 2022-09-23 | [bugfix] Update to release-notes.md  [rgeerkens] | Update to test bugfixes in release notes
+
+## Enhancements
+- 2022-09-23 | [enhancement] Update files to demo enhancements  (HEAD -> main, origin/main) [rgeerkens] | Commit to show enhancements in automatic generated changelog
