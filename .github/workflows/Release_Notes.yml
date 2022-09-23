@@ -17,15 +17,15 @@ jobs:
       - name: Create local changes
         run: |
           echo "# Release Notes" > docs/changelog.md
-          echo "" >> changelog.md
-          echo "## Releases" >> changelog.md
-          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[release]" >> changelog.md
-          echo "" >> changelog.md
-          echo "## Bugfixes" >> changelog.md
-          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[bugfix]" >> changelog.md
-          echo "" >> changelog.md
-          echo "## Enhancements" >> changelog.md
-          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[enhancement]" >> changelog.md
+          echo "" >> docs/changelog.md
+          echo "## Releases" >> docs/changelog.md
+          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[release]" >> docs/changelog.md
+          echo "" >> docs/changelog.md
+          echo "## Bugfixes" >> docs/changelog.md
+          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[bugfix]" >> docs/changelog.md
+          echo "" >> docs/changelog.md
+          echo "## Enhancements" >> docs/changelog.md
+          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[enhancement]" >> docs/changelog.md
           git add docs/changelog.md
       - name: Commit files
         run: |
