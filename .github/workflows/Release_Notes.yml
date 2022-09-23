@@ -18,3 +18,8 @@ jobs:
         run: |
           git log --all --grep='licenses' --pretty=format:"%ad | %s %d [%an]" --date=short >> changelog.md
           git add changelog.md
+      - name: Commit files
+        run: |
+          git config --local user.email "ronny.geerkens@telenet.be"
+          git config --local user.name "rgeerkens"
+          git commit -am "Change Log Created / Updated"
