@@ -16,6 +16,9 @@ jobs:
           fetch-depth: 0
       - name: Create local changes
         run: |
+          echo "# Release Notes" > changelog.md
+          echo "" > changelog.md
+          echo "## Licenses" > changelog.md
           git log --all --grep='licenses' --pretty=format:"%ad | %s %d [%an]" --date=short >> changelog.md
           git add changelog.md
       - name: Commit files
