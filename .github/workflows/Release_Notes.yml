@@ -21,6 +21,8 @@ jobs:
           commitMode: true
           outputFile: changelog.md
           configuration: "configuration.json"
+          fromTag: "1.0"
+          toTag: "3.0"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create local changes
