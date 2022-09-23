@@ -23,6 +23,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create local changes
         run: |
+           echo "testje" >> changelog.md
            echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
            cat changelog.md
 #          git add changelog.md
