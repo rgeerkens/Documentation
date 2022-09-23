@@ -16,4 +16,5 @@ jobs:
           fetch-depth: 0
       - name: Create local changes
         run: |
-          git log --all --grep='licenses'
+          git log --all --grep='licenses' --pretty=format:"%ad | %s %d [%an]" --date=short >> changelog.md
+          git add changelog.md
