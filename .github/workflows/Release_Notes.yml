@@ -14,3 +14,6 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 0
+      - name: Create local changes
+        run: |
+          git log
