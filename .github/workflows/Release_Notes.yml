@@ -25,3 +25,13 @@ jobs:
         run: |
           echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
           git add changelog.md
+      - name: Commit files
+        run: |
+          git config --local user.email "ronny.geerkens@telenet.be"
+          git config --local user.name "rgeerkens"
+          git commit -am "Change Log Created / Updated"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
