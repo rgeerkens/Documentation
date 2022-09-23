@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rgeerkens.github.io/Documentation/3.0/changelog/</loc>
+         <lastmod>2022-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/licenses/</loc>
          <lastmod>2022-09-23</lastmod>
          <changefreq>daily</changefreq>
