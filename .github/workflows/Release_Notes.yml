@@ -25,7 +25,6 @@ jobs:
       - name: Create local changes
         run: |
            echo "testje" >> changelog.md
-           changelog=${{steps.build_changelog.outputs.changelog}}
            cat changelog.md
 #          git add changelog.md
 #      - name: Commit files
