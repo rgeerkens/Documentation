@@ -1,4 +1,4 @@
-name: Bump version
+name: Changelog
 
 on:
   #push:
@@ -21,4 +21,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           commitMode: true
-          outputFile: changelog.md
+      - name: Create local changes
+        run: |
+          echo ${{steps.build_changelog.outputs.changelog}} >> changelog.md
+          git add changelog.md
