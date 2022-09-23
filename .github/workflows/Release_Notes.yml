@@ -27,16 +27,16 @@ jobs:
         id: generate_notes
         uses: anmarkoulis/commitizen-changelog-reader@master
         with:
-          tag_name: refs/tags/3.01
+          tag_name: refs/tags/3.0
           changelog: CHANGELOG.md
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: refs/tags/3.01
-          release_name: Release ${{ github.ref }}
-          prerelease: false
-          draft: false
-          body: ${{join(fromJson(steps.generate_notes.outputs.notes).notes, '')}}
+#      - name: Create Release
+#        id: create_release
+#        uses: actions/create-release@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          tag_name: refs/tags/3.01
+#          release_name: Release ${{ github.ref }}
+#          prerelease: false
+#          draft: false
+#          body: ${{join(fromJson(steps.generate_notes.outputs.notes).notes, '')}}
