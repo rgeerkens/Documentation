@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - name: Create local changes
         run: |
-          echo "# Release Notes" > changelog.md
+          echo "# Release Notes" > docs/changelog.md
           echo "" >> changelog.md
           echo "## Releases" >> changelog.md
           git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[release]" >> changelog.md
