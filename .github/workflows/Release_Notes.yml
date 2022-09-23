@@ -13,9 +13,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@main
-        with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          fetch-depth: 0
       - name: Setup Python
         uses: actions/setup-python@v2.1.4
         with:
@@ -30,7 +27,7 @@ jobs:
         id: generate_notes
         uses: anmarkoulis/commitizen-changelog-reader@master
         with:
-          tag_name: ${{ github.ref }}
+          tag_name: 3.0
           changelog: CHANGELOG.md
       - name: Create Release
         id: create_release
@@ -38,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
+          tag_name: 3.0
           release_name: Release ${{ github.ref }}
           prerelease: false
           draft: false
