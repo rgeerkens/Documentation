@@ -22,7 +22,7 @@ First Header | Second Header | Third Header
 Left         | Center        | Right
 Left         | Center        | Right
 
-## Fenced Code Example 1
+## Fenced Code Example
 
 ```
 Fenced code blocks are like Standard
