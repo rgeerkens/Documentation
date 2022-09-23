@@ -21,6 +21,8 @@ jobs:
           commitMode: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run:
+          cat changelog
       - name: Create local changes
         run: |
            echo "testje" >> changelog.md
