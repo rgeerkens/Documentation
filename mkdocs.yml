@@ -51,6 +51,7 @@ nav:
         - Bug Tracker: bugs.md
         - Training (remote repo) : training/README.md
         - Bastion Demo (remote repo) : bastion-demo/README.md
+        - Automatic Changelog : docs/changelog.md
 
     - About : about.md
     - Report Issue: https://github.com/rgeerkens/Documentation/issues/new
