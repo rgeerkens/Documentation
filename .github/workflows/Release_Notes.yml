@@ -20,6 +20,9 @@ jobs:
           echo "" >> changelog.md
           echo "## Releases" >> changelog.md
           git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[release]" >> changelog.md
+          echo "" >> changelog.md
+          echo "## Bugfixes" >> changelog.md
+          git log --all --pretty=format:"- %ad | %s %d [%an] | %b" --date=short | grep -F "[bugfix]" >> changelog.md
           git add changelog.md
       - name: Commit files
         run: |
