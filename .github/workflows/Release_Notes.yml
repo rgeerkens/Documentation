@@ -23,3 +23,8 @@ jobs:
           git config --local user.email "ronny.geerkens@telenet.be"
           git config --local user.name "rgeerkens"
           git commit -am "Change Log Created / Updated"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
