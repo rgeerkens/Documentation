@@ -19,4 +19,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Other Content
 
 Other content information v3.0
-demo documentation
+demo documentations
