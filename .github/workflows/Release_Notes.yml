@@ -18,8 +18,8 @@ jobs:
         run: |
           echo "# Release Notes" > changelog.md
           echo "" >> changelog.md
-          echo "## Licenses" >> changelog.md
-          git log --all --grep='licenses' --pretty=format:"- %ad | %s %d [%an] | %b" --date=short >> changelog.md
+          echo "## Releases" >> changelog.md
+          git log --all --grep='[release]' --pretty=format:"- %ad | %s %d [%an] | %b" --date=short >> changelog.md
           git add changelog.md
       - name: Commit files
         run: |
