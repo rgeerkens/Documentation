@@ -1,0 +1,31 @@
+name: Sync Packages
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  # push:
+  #   branches:
+  #     - main
+  #   paths-ignore:
+  #     - ".github/**"
+  
+  workflow_dispatch:
+
+jobs:
+
+  build-image-ghcr:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@main
+        
+      # Connect to GitHub Container Registry (ghcr)
+      - name: Login to GitHub Container Registry
+        uses: azure/docker-login@v1
+        with:
+          login-server: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Get Packages
+        run: |
+          echo "Getting Packages"
+          
