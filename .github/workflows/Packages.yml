@@ -13,7 +13,7 @@ on:
 
 jobs:
 
-  build-image-ghcr:
+  sync-images:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@main
@@ -29,9 +29,8 @@ jobs:
         run: |
           echo "Getting Packages"
           docker pull ghcr.io/rgeerkens/labo-environmnet:899756e3b27171005288f364a0a30d147065f610
-          echo "step 1"
           docker image list
           docker tag 1f0468b27fab ghcr.io/rgeerkens/documentation:899756e3b27171005288f364a0a30d147065f610
-          echo "step2"
           docker push ghcr.io/rgeerkens/documentation:899756e3b27171005288f364a0a30d147065f610
-          echo "step 3"
+          docker tag 1f0468b27fab ghcr.io/rgeerkens/application1:1.0
+          docker push ghcr.io/rgeerkens/application1:1.0
