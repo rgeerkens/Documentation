@@ -50,10 +50,10 @@ nav:
           - License: licenses.md
           - Release Notes : release-notes.md
         - Bug Tracker: bugs.md
-        - Training (remote repo) : training/README.md
-        - Bastion Demo (remote repo) : bastion-demo/README.md
+        - Training (sync remote repo) : training/README.md
+        - Bastion Demo (sync remote repo) : bastion-demo/README.md
         - Automatic Changelog : changelog.md
-        - Traing (reference repo) : external_md.md
+        - Training (reference repo) : external_md.md
     - Packages : https://github.com/rgeerkens?tab=packages&repo_name=Documentation
     - About : about.md
     - Report Issue: https://github.com/rgeerkens/Documentation/issues/new
