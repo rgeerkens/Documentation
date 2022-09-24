@@ -37,6 +37,7 @@ extra:
 plugins:
   - tags
   - search
+  - external-markdown
 
 markdown_extensions:
   - toc:
