@@ -28,4 +28,5 @@ jobs:
       - name: Get Packages
         run: |
           echo "Getting Packages"
+          docker pull ghcr.io/rgeerkens/labo-environmnet:899756e3b27171005288f364a0a30d147065f610
           
