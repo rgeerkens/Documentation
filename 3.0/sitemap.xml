@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rgeerkens.github.io/Documentation/3.0/external_md/</loc>
+         <lastmod>2022-09-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/licenses/</loc>
          <lastmod>2022-09-24</lastmod>
          <changefreq>daily</changefreq>
