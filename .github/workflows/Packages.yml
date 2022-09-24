@@ -30,7 +30,7 @@ jobs:
           echo "Getting Packages"
           docker pull ghcr.io/rgeerkens/labo-environmnet:899756e3b27171005288f364a0a30d147065f610
           echo "step 1"
-          docker tag 899756e3b27171005288f364a0a30d147065f610 ghcr.io/rgeerkens/documentation
+          docker tag labo-environmnet:899756e3b27171005288f364a0a30d147065f610 ghcr.io/rgeerkens/documentation:899756e3b27171005288f364a0a30d147065f610
           echo "step2"
           #docker push ghcr.io/rgeerkens/documentation:899756e3b27171005288f364a0a30d147065f610
           echo "step 3"
