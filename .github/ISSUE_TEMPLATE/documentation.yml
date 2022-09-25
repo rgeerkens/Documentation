@@ -1,6 +1,6 @@
 name: Report Documentation Issue
 description: Request issues in the documentation.
-labels: [documentation]
+labels: [documentation, triage]
 
 body:
   - type: textarea

@@ -1,6 +1,6 @@
 name: Request Enhancement
 description: Request our thoughts on your suggestion for a new feature.
-labels: [enhancement]
+labels: [enhancement, triage]
 
 body:
   - type: markdown
