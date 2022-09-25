@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Get help in GitHub Discussions
+    url: https://github.com/rgeerkens/Documentation/discussions
+    about: Have a question? Not sure if your issue affects everyone reproducibly? The quickest way to get help is on Documentations Discussions!
+  - name: Search the documentation
+    url: https://rgeerkens.github.io/Documentation
+    about: The documentation website provides the most detailed information about our products.

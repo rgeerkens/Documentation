@@ -1,0 +1,20 @@
+name: Report Documentation Issue
+description: Request issues in the documentation.
+labels: [documentation]
+
+body:
+  - type: textarea
+    attributes:
+      label: Provide a description of the issue
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Provide a link to teh documentation where the issue resides
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional information you want ot provide
+    validations:
+      required: false
