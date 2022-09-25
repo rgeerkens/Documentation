@@ -7,6 +7,9 @@ on:
     types: [opened, labeled]
   issue_comment:
     types: [created]
+  
+  workflow_dispatch:
+
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
