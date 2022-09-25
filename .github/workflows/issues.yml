@@ -1,9 +1,9 @@
 name: Assign Issues to Project(s)
 
 on:
-  issue_comment:
-    types: [created]
-  
+  issues:
+    types: [opened]
+ 
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -15,9 +15,14 @@ jobs:
     steps:
     - name: Assign NEW issues to demo project 2
       uses: srggrs/assign-one-project-github-action@1.2.1
-      if: github.event.action == 'created'
+      if: |
+        github.event_name == 'issues' &&
+        (
+          github.event.action == 'opened' ||
+          contains(github.event.issue.labels.*.name, 'triage')
+        )
       with:
-        project: 'https://github.com/users/rgeerkens/projects/2'
+        project: 'https://github.com/srggrs/assign-one-project-github-action/projects/2'
 
 #    - name: Assign issues and pull requests with `bug` label to project 3
 #      uses: srggrs/assign-one-project-github-action@1.2.1
