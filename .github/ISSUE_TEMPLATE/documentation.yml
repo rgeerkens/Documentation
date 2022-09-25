@@ -10,7 +10,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Provide a link to teh documentation where the issue resides
+      label: Provide a link to the documentation where the issue resides
     validations:
       required: true
   - type: textarea
