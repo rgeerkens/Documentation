@@ -1,6 +1,6 @@
 name: Report Bug
 description: "Submit an issue so we can investigate."
-labels: [bug]
+labels: [bug][triage]
 body:
   - type: markdown
     attributes:
