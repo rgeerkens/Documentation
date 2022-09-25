@@ -22,7 +22,7 @@ jobs:
           contains(github.event.issue.labels.*.name, 'triage')
         )
       with:
-        project: 'https://github.com/srggrs/assign-one-project-github-action/projects/2'
+        project: 'https://github.com/users/rgeerkens/projects/2'
         column_name: 'Test'
 
 #    - name: Assign issues and pull requests with `bug` label to project 3
