@@ -14,7 +14,7 @@ jobs:
     - name: Assign triage issues to demo project
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: |
-        contains(github.event.issue.labels.*.name, 'bi-issue')
+        contains(github.event.issue.labels.*.name, 'triage')
       with:
         project: 'https://github.com/users/rgeerkens/projects/2'
         column_name: 'Test'
