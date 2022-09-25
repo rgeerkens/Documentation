@@ -15,5 +15,5 @@ jobs:
           # to the issue
           project-url: https://github.com/users/rgeerkens/projects/2
           github-token: ${{ secrets.ISSUES_TOKEN }}
-          labeled: documentation, triage
-          label-operator: OR
+          labeled: triage
+          #label-operator: OR
