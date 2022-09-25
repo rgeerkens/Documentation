@@ -15,6 +15,6 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Additional information you want ot provide
+      label: Additional information you want to provide
     validations:
       required: false
