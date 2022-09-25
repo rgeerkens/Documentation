@@ -14,9 +14,9 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  assign_one_project:
+  assign_to_demo_project:
     runs-on: ubuntu-latest
-    name: Assign to One Project
+    name: Assign to Demo Documentation Project
     steps:
     - name: Assign NEW issues and NEW pull requests to project 2
       uses: srggrs/assign-one-project-github-action@1.2.1
