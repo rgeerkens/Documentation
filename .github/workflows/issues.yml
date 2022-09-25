@@ -1,20 +1,19 @@
-name: Auto Assign to Project(s)
+name: Add bugs to bugs project
 
 on:
   issues:
-    types: [created, labeled]
-env:
-  MY_GITHUB_TOKEN: ${{ secrets.ISSUES_TOKEN }}
+    types: [labeled]
 
 jobs:
-  assign_one_project:
+  add-to-project:
+    name: Add issue to project
     runs-on: ubuntu-latest
-    name: Assign to One Project
     steps:
-    - name: Assign triage issues to demo project
-      uses: srggrs/assign-one-project-github-action@1.2.1
-      if: |
-        contains(github.event.issue.labels.*.name, 'triage')
-      with:
-        project: 'https://github.com/users/rgeerkens/projects/2'
-        column_name: 'Test'
+      - uses: actions/add-to-project@RELEASE_VERSION
+        with:
+          # You can target a repository in a different organization
+          # to the issue
+          project-url: https://github.com/users/rgeerkens/projects/2
+          github-token: ${{ secrets.ISSUES_TOKEN }}
+          labeled: documentation, triage
+          label-operator: OR
