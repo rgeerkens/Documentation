@@ -22,7 +22,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      render: shell
+      render: Shell
       label: "Provide bug output"
     validations:
       required: false
