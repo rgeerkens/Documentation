@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/about/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/bugs/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/changelog/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/licenses/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/release-notes/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/bastion-demo/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/training/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
