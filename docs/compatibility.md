@@ -1,12 +1,17 @@
-title: The Title | name: The Name | ph: The Phone
--|-|-
-title: value 1
-name:  value 2
-ph:    value 3
-||
-title: value 4
-name:  value 5
-ph:    value 6
+-------------------------------------------------------------
+ Centered   Default           Right Left
+  Header    Aligned         Aligned Aligned
+----------- ------- --------------- -------------------------
+   First    row                12.0 Example of a row that
+                                    spans multiple lines.
+
+  Second    row                 5.0 Here's another one. Note
+                                    the blank line between
+                                    rows.
+-------------------------------------------------------------
+
+Table: Here's the caption. It, too, may span
+multiple lines.
 
 
 ---
