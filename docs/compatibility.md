@@ -1,15 +1,12 @@
-The Title | The Name | The Phone
+title: The Title | name: The Name | ph: The Phone
 -|-|-
-The Title: value 1
-The Name:  value 2
-The Phone: value 3
+title: value 1
+name:  value 2
+ph:    value 3
 ||
-The Title: value 4
-The Name:  value 5
-The Phone: value 6
-
-
-
+title: value 4
+name:  value 5
+ph:    value 6
 
 
 ---
