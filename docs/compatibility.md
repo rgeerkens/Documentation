@@ -14,7 +14,7 @@ tests:
   grafana-addon: null
   prometheus-addon: null
 overall-status: "passing"
----
+
 timestamp: "2022-01-05 18:00:16 UTC Wed"
 meshery-component: meshery-istio
 meshery-component-version: edge
