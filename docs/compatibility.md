@@ -1,6 +1,8 @@
 ---
-test: testinhoud | 05
+test: testinhoud
 tweede-veld : secondary
+test: testinhoud2
+tweede-veld : secondary2
 
 ---
 
