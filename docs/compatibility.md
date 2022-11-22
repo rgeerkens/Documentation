@@ -3,7 +3,7 @@ test: testinhoud
 tweede-veld : secondary
 test: testinhoud2
 tweede-veld : secondary2
-<\b>
+---
 timestamp: "2022-01-05 18:00:16 UTC Wed"
 meshery-component: meshery-istio
 meshery-component-version: edge
