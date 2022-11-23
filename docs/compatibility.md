@@ -19,3 +19,8 @@ test2: 2
 | ----------- | :---------:  | :---: | :----: | :--------: | :---: | :---------: |
 | ais         | 0.5          | 1.8   | 9      |            | 3     |             |
 | ais         | 1.0          | 1.8   | 9      |            |       | 1.23 - 1.25 |
+
+| Component   | Documentatie | Java  | Tomcat | Sql Server | OKD 3              | Kubernetes 1.23    | Kubernetes 1.24    | Kubernetes 1.25    |
+| ----------- | :---------:  | :---: | :----: | :--------: | :----------------: | :----------------: | :----------------: | :----------------: |
+| ais         | 0.5          | 1.8   | 9      |            | :heavy_check_mark: |                    |                    |                    |
+| ais         | 1.0          | 1.8   | 9      |            |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
