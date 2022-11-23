@@ -1,7 +1,4 @@
----
-test: 1
-test2: 2
----
+
 
 | Component   | Documentatie | Java  | Tomcat | Sql Server | Container Platform |
 | ----------- | :---------:  | :---: | :----: | :--------: | :----------------: |
