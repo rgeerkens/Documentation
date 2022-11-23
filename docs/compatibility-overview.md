@@ -4,8 +4,8 @@
 
 | Component   | Documentatie | Java  | Tomcat | Red Hat | OKD                | Kubernetes         |
 | ----------- | :---------:  | :---: | :----: | :-----: | :----------------: | :----------------: |
-| ais         | 0.5          | 1.8   | 9      | 7.*     | :heavy_check_mark: |                    |
-| ais         | 1.0          | 1.8   | 9      | 7.*     | :x:                | :heavy_check_mark: |
+| ais         | 0.5          | 1.8   | 9      | :x:     | :heavy_check_mark: |                    |
+| ais         | 1.0          | 1.8   | 9      | :x:     | :x:                | :heavy_check_mark: |
 
 ## okd
 
