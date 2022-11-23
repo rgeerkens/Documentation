@@ -4,7 +4,7 @@ test2: 2
 ---
 
 | Syntax      | Description |
-| ----------- | ----------- |
+| ----------- | :---------: |
 | Header      | Title       |
 | Paragraph   | Text        |
 
