@@ -3,12 +3,12 @@ test: 1
 test2: 2
 ---
 
-| Syntax      | Description |
-| ----------- | :---------: |
-| Header      | Title       |
-| Paragraph   | Text        |
+| Component   | Documentatie | Java  | Tomcat | Sql Server | Container Platform |
+| ----------- | :---------:  | :---: | :----: | :--------: | :----------------: |
+| ais         | 0.5 1.0      | 1.8   | 9      |            | OKD 3 - Kubernetes 1.23 - 1.25|
 
----
-test: 1
-test2: 2
----
+
+| Component   | Documentatie | Java  | Tomcat | Sql Server | Container Platform |
+| ----------- | :---------:  | :---: | :----: | :--------: | :----------------: |
+| ais         | 0.5          | 1.8   | 9      |            | OKD 3              |
+| ais         | 1.0          | 1.8   | 9      |            | Kubernetes 1.23 - 1.25|
