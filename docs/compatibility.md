@@ -7,3 +7,8 @@ test2: 2
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
+
+---
+test: 1
+test2: 2
+---
