@@ -18,5 +18,5 @@
 
 | Component   | Documentatie | Kubernetes 1.23    | Kubernetes 1.24    | Kubernetes 1.25    |
 | ----------- | :---------:  | :----------------: | :----------------: | :----------------: |
-| kubernetes  | 0.5          | :heavy_check_mark: | :x:                | :x:                |
+| kubernetes  | 0.5          | :x:                | :x:                | :x:                |
 | kubernetes  | 1.0          | :heavy_check_mark: | :heavy_check_mark: | :x:                |
