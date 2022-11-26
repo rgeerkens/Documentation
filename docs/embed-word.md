@@ -15,11 +15,11 @@ var var_url = 'https://rgeerkens.github.io/Documentation/3.0/demo-word.docx';
 
 <script>
 
-var var_url = 'https://rgeerkens.github.io/Documentation/3.0/demo-word.docx';
+var var_url = "https://view.officeapps.live.com/op/view.aspx?src=https://rgeerkens.github.io/Documentation/3.0/demo-word.docx&wdOrigin=BROWSELINK";
 
 </script>
 
-<object data="https://view.officeapps.live.com/op/view.aspx?src="var_url"&wdOrigin=BROWSELINK" width="100%" height="800"></object>
+<object data=var_url width="100%" height="800"></object>
 
 ## test
 
@@ -28,3 +28,5 @@ var var_url = 'https://rgeerkens.github.io/Documentation/3.0/demo-word.docx';
 <<a href="../demo-word.docx">Like</a>>
 
 <href="../demo-word.docx">
+
+<<a var_url>var</a>>
