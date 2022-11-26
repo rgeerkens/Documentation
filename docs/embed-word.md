@@ -12,4 +12,4 @@ pad is relatief t.o.v. de markdown file link
 
 [demo](demo-word.docx)
 
-<<a href="&like=like">Like</a>>
+<<a href="../demo-word.docx">Like</a>>
