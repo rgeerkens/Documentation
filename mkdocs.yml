@@ -53,7 +53,7 @@ nav:
         - Training (sync remote repo) : training/README.md
         - Bastion Demo (sync remote repo) : bastion-demo/README.md
         - Automatic Changelog : changelog.md
-        - Demo Pdf: demo-pdf.pdf
+        - Demo Pdf: embed-pdf.md
     - Packages : https://github.com/rgeerkens?tab=packages&repo_name=Documentation
     - About : about.md
     - Report Issue: https://github.com/rgeerkens/Documentation/issues/new/choose
