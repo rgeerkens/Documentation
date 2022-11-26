@@ -1,5 +1,5 @@
 # Embed PDF
 
-<embed src="3.0/demopdf.pdf" type="application/pdf">
+<embed src="https://rgeerkens.github.io/Documentation/3.0/demopdf.pdf" type="application/pdf">
 
 [demo](demopdf.pdf)
