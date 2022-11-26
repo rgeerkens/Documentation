@@ -1,3 +1,3 @@
 # Embed PDF
 
-<embed src="demo-pdf.pdf" type="application/pdf">
+<embed src="3.0/demopdf.pdf" type="application/pdf">
