@@ -16,6 +16,7 @@ jobs:
       - run: pip install mkdocs-material 
       - run: pip install mike
       - run: pip install mkdocs-embed-external-markdown
+      - run: pip install markdown-include
 #      - run: mkdocs gh-deploy --force
       - run: git config user.name rgeerkens
       - run: git config user.email ronny.geerkens@telenet.be

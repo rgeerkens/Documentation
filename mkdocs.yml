@@ -42,6 +42,8 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
+  - markdown_include.include:
+        base_path: docs
 
 nav:
     - Home: 
