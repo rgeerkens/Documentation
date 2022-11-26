@@ -29,4 +29,4 @@ var var_url = "https://view.officeapps.live.com/op/view.aspx?src=https://rgeerke
 
 <href="../demo-word.docx">
 
-<<a var_url>var</a>>
+<<a $var_url>var</a>>
