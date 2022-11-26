@@ -4,6 +4,6 @@ some text
 
 ## embedded file
 
-<!--include:../licenses.md-->
+<!--include: licenses.md-->
 
 [demo](licenses.md)
