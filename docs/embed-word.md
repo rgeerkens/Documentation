@@ -15,7 +15,7 @@ var var_url = 'https://rgeerkens.github.io/Documentation/3.0/demo-word.docx';
 
 <script>
 
-var var_url = "https://view.officeapps.live.com/op/view.aspx?src=https://rgeerkens.github.io/Documentation/3.0/demo-word.docx&wdOrigin=BROWSELINK";
+var var_url = "https://view.officeapps.live.com/op/view.aspx?src=<<a href='../demo-word.docx'>Like</a>>&wdOrigin=BROWSELINK";
 
 </script>
 
