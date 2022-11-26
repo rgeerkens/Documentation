@@ -8,6 +8,6 @@ some text
 
 ## test
 
---8<-- "licenses.md"
+{!licenses.md!}
 
 [demo](licenses.md)
