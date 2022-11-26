@@ -59,7 +59,6 @@ nav:
         - Demo Word: embed-word.md
         - Demo Excel: embed-excel.md
         - Md Embed Demo: embed-md.md
-        - Flows Demo: embed-flows.md
     - Packages : https://github.com/rgeerkens?tab=packages&repo_name=Documentation
     - About : about.md
     - Report Issue: https://github.com/rgeerkens/Documentation/issues/new/choose
