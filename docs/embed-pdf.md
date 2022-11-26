@@ -8,3 +8,5 @@
 <object data="{{ pdf_file }}" type="application/pdf">
     <embed src="{{ pdf_file }}" type="application/pdf" />
 </object>
+
+{% endwith %}
