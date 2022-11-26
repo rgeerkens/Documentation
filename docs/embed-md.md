@@ -6,4 +6,8 @@ some text
 
 [!INCLUDE [Licenses](licenses.md)]
 
+## test
+
+--8<-- "licenses"
+
 [demo](licenses.md)
