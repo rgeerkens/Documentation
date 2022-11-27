@@ -51,7 +51,7 @@ nav:
         - Other:
           - License: licenses.md
           - Release Notes : 
-              - release-notes.md
+              - index.md
               - Sub test: embed-pdf.md
         - Bug Tracker: bugs.md
         - Training (sync remote repo) : training/README.md
