@@ -50,9 +50,7 @@ nav:
         - index.md
         - Other:
           - License: licenses.md
-          - Release Notes : 
-              - index.md
-              - Sub test: embed-pdf.md
+          - Release Notes : release-notes.md
         - Bug Tracker: bugs.md
         - Training (sync remote repo) : training/README.md
         - Bastion Demo (sync remote repo) : bastion-demo/README.md
