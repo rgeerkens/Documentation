@@ -2,72 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/about/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rgeerkens.github.io/Documentation/3.0/badges-example/</loc>
+         <lastmod>2022-11-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rgeerkens.github.io/Documentation/3.0/badges/</loc>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/bugs/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/changelog/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/compatibility-overview/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/compatibility/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/embed-excel/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/embed-md/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/embed-pdf/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/embed-word/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/licenses/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/release-notes/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/bastion-demo/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://rgeerkens.github.io/Documentation/3.0/training/</loc>
-         <lastmod>2022-11-26</lastmod>
+         <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
