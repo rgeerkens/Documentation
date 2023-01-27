@@ -1,0 +1,91 @@
+apiVersion: v1
+entries:
+  alpine:
+  - apiVersion: v1
+    appVersion: "3.9"
+    created: "2023-01-27T09:56:24.257931142Z"
+    description: Deploy a basic Alpine Linux pod
+    digest: 4047cd9a82b8b63d0ca5898c32aca12efd1c1c3bbdeb82e4119d11efe2e7cd29
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: alpine
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/rgeerkens/Documentation/releases/download/alpine-0.1.2/alpine-0.1.2.tgz
+    version: 0.1.2
+  example:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-01-27T09:56:24.352043764Z"
+    description: A Helm chart for Kubernetes
+    digest: e231902baecbf5c70ff2e9bbb6747f4de73e5c3c9f679484580322b4a7b07c4c
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: example
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/rgeerkens/Documentation/releases/download/example-0.1.2/example-0.1.2.tgz
+    version: 0.1.2
+  helloworld:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-01-27T09:56:24.434418559Z"
+    description: A Helm chart for Kubernetes
+    digest: 46a82070d6b878f7f91ab1661eafa684c914dcd126ecccfe1cb8ea220e297bc9
+    home: https://paulczar.github.io/charts
+    maintainers:
+    - email: paul@paulcz.net
+      name: paulczar
+    name: helloworld
+    urls:
+    - https://github.com/rgeerkens/Documentation/releases/download/helloworld-2.0.0/helloworld-2.0.0.tgz
+    version: 2.0.0
+  kubecon:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-01-27T09:56:24.521231802Z"
+    description: A Helm chart for Kubernetes
+    digest: 38a63e6957019ccb5a45fc9de1fd884f958aa34d114c7406fd89d4cf4e4262f6
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: paul@paulcz.net
+      name: paulczar
+    name: kubecon
+    urls:
+    - https://github.com/rgeerkens/Documentation/releases/download/kubecon-0.1.0/kubecon-0.1.0.tgz
+    version: 0.1.0
+  mystique:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-01-27T09:56:24.597249428Z"
+    description: A helm chart for masquerading as misc helm resources.
+    digest: b5686bd9db6753840584d008385a3499d6c8382672e55ef9f16e3a7b0c651122
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: mystique
+    urls:
+    - https://github.com/rgeerkens/Documentation/releases/download/mystique-0.1.0/mystique-0.1.0.tgz
+    version: 0.1.0
+  raw:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2023-01-27T09:56:24.676142285Z"
+    description: A helm chart for deploying raw manifests
+    digest: e2e4dfe21a317122271a4bcbc3de9de6448538b5cbbda292c7a0e6ef007d2973
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: raw
+    urls:
+    - https://github.com/rgeerkens/Documentation/releases/download/raw-1.0.1/raw-1.0.1.tgz
+    version: 1.0.1
+generated: "2023-01-27T09:56:24.676147385Z"
